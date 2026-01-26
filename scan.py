@@ -11,5 +11,6 @@ tbl_vjepa_embeddings = project.table("vjepa_embeddings")
 
 vjepa_embeddings_scan = sp.scan(tbl_vjepa_embeddings["tensor"], where=tbl_vjepa_embeddings["layer"] == 4)
 
-for batch in tqdm.tqdm(vjepa_embeddings_scan.to_record_batches(batch_readahead=32, hide_progress_bar=True)):
+print("Scan...\n")
+for batch in tqdm.tqdm(vjepa_embeddings_scan.to_record_batches(hide_progress_bar=True)):
     pass
