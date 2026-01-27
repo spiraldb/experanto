@@ -879,7 +879,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.4.1" },
     { name = "polars", specifier = ">=1.37.1" },
-    { name = "pyspiral", specifier = "==0.9.13.dev1" },
+    { name = "pyspiral", specifier = "==0.9.15.dev1" },
 ]
 
 [[package]]
@@ -1672,7 +1672,7 @@ wheels = [
 
 [[package]]
 name = "pyspiral"
-version = "0.9.13.dev1"
+version = "0.9.15.dev1"
 source = { registry = "https://test.pypi.org/simple/" }
 dependencies = [
     { name = "betterproto2" },
@@ -1695,11 +1695,11 @@ dependencies = [
     { name = "zstandard" },
 ]
 wheels = [
-    { url = "https://test-files.pythonhosted.org/packages/8d/c0/6d04d5483057c1b6938c5cb4ae5c32d6b103fa6131b3bb1b6573b5a40af4/pyspiral-0.9.13.dev1-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:61281a79ef81035cd191aa742023d54e2154928a93545f9a37de219a9610e77a", size = 27912851, upload-time = "2026-01-21T18:48:17.993Z" },
-    { url = "https://test-files.pythonhosted.org/packages/4c/85/3d0e776ed9a2f3096a9d35de24510713ac36afac17746d253cdc6df3a056/pyspiral-0.9.13.dev1-cp311-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e651138f9932f561f5610ae6c7eecfabb700e6e49fa883d53ba631dc49332780", size = 25995845, upload-time = "2026-01-21T18:48:21.078Z" },
-    { url = "https://test-files.pythonhosted.org/packages/51/f9/09afcccea0c6404b5c8e9931b4dc7bed2749189dc7ad58978f2b191254bd/pyspiral-0.9.13.dev1-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:79dc999b6917381465841c99f210e20b610b4b45cb7cd0c926ba48b356dbc96a", size = 27053962, upload-time = "2026-01-21T18:48:24.142Z" },
-    { url = "https://test-files.pythonhosted.org/packages/06/38/fd0cfaa94072763c7cac437f8968dca5472c36f6504b18f3d1f25cccc261/pyspiral-0.9.13.dev1-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:3b52dd618822d75d8c47c04570c868c5ba8ea586b709a150723e34c14af6569c", size = 25995954, upload-time = "2026-01-21T18:48:15.016Z" },
-    { url = "https://test-files.pythonhosted.org/packages/cc/01/46c166dc867c7e953ec1a50da23a33955d97ef86cf3c0536beb1f3949a57/pyspiral-0.9.13.dev1-cp311-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:06b1c2ca8bc367997ce50b0222e6efe635c803d008fb4a6db81a10525aa4a07f", size = 27053988, upload-time = "2026-01-21T18:48:12.057Z" },
+    { url = "https://test-files.pythonhosted.org/packages/99/d6/521f4322969004a98ed86f22a007d63fb956909544cd9103a0773bfc0312/pyspiral-0.9.15.dev1-cp311-abi3-macosx_11_0_arm64.whl", hash = "sha256:6ed51b3305f90435ad642367e0a62084adbe8a1cc7369955b2ee11a012d8e1c5", size = 28002473, upload-time = "2026-01-27T16:01:35.253Z" },
+    { url = "https://test-files.pythonhosted.org/packages/39/5a/ba314446ffae014b46186d43fdc55aa68564d07006816f388251d6f121c7/pyspiral-0.9.15.dev1-cp311-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:528f2f34515de23f4701a49e07e01463bfee30b7ceaf13ba271dd92bfb9543ac", size = 26402638, upload-time = "2026-01-27T16:01:28.764Z" },
+    { url = "https://test-files.pythonhosted.org/packages/00/84/dd8f96fb27f0efee68920c2861691fee74a88e011e15547cdc2cd81a674d/pyspiral-0.9.15.dev1-cp311-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2942299a4292906dffbe333b58c8c6052e694096851572683676c7b38f9f73fb", size = 27494138, upload-time = "2026-01-27T16:01:31.874Z" },
+    { url = "https://test-files.pythonhosted.org/packages/47/57/b6edd6d591b293517b1e1c490b1b0bb9b1429b76dd1faa5ec3be77ec95e7/pyspiral-0.9.15.dev1-cp311-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:cbb0dfb17450300d7275353ed02f010e261ae6a78c74b9bef82988e04dbcb3e6", size = 26402494, upload-time = "2026-01-27T16:01:38.49Z" },
+    { url = "https://test-files.pythonhosted.org/packages/8c/a9/480d5a64b0a42357d67f6827d2cbeb1dceac4a0212726abc1a4e15c31476/pyspiral-0.9.15.dev1-cp311-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:d05bf0ac9690cd3e70390e7c5e989a8d565dc5afd85a01513d326c5d450aceb0", size = 27494411, upload-time = "2026-01-27T16:01:25.235Z" },
 ]
 
 [[package]]
