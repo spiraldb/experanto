@@ -9,7 +9,7 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
     "polars>=1.37.1",
-    "pyspiral==0.9.15.dev1",
+    "pyspiral==0.9.16.dev1",
 ]
 
 [[tool.uv.index]]
